@@ -205,7 +205,6 @@ async function displayTopTracks() {
         <img src="${imageUrl}" alt="${track.name}" class="track-image">
         <div class="track-title">${track.name}</div>
         <div class="track-album">${track.album.name}</div>
-        <div class="track-popularity">${track.popularity}% popularity</div>
       `;
       
       container.appendChild(trackCard);
